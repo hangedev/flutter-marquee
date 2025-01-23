@@ -1,3 +1,9 @@
+## 2.3.0
+
+- Update `fading_edge_scrollview` dependency to `4.1.1` to support flutter 3.24
+- Addded @dispose call for controller to stop marquee from recreating with new controller - major performance gain.
+- Thanks to @shilosaadon and @realitymolder
+
 ## 2.2.4
 
 - Update flutter sdk dependency dependency to `>=3.0.0 <4.0.0`, which supports `fading_edge_scrollview` on version `4.1.1`.
